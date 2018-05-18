@@ -7,14 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C08349C20AF44BC00893E90 /* MainVCCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C08349B20AF44BC00893E90 /* MainVCCell.swift */; };
+		4C1BBB6C20AF51A400EC9583 /* DoneVCCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1BBB6B20AF51A400EC9583 /* DoneVCCell.swift */; };
 		4C6B1B4520AF351600A1A0B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6B1B4420AF351600A1A0B6 /* AppDelegate.swift */; };
-		4C6B1B4720AF351600A1A0B6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6B1B4620AF351600A1A0B6 /* ViewController.swift */; };
+		4C6B1B4720AF351600A1A0B6 /* MainToBeastVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6B1B4620AF351600A1A0B6 /* MainToBeastVC.swift */; };
 		4C6B1B4A20AF351600A1A0B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C6B1B4820AF351600A1A0B6 /* Main.storyboard */; };
 		4C6B1B4D20AF351600A1A0B6 /* BeastListExam.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4C6B1B4B20AF351600A1A0B6 /* BeastListExam.xcdatamodeld */; };
 		4C6B1B4F20AF351A00A1A0B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C6B1B4E20AF351A00A1A0B6 /* Assets.xcassets */; };
 		4C6B1B5220AF351A00A1A0B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C6B1B5020AF351A00A1A0B6 /* LaunchScreen.storyboard */; };
 		4C6B1B5D20AF351B00A1A0B6 /* BeastListExamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6B1B5C20AF351B00A1A0B6 /* BeastListExamTests.swift */; };
 		4C6B1B6820AF351B00A1A0B6 /* BeastListExamUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6B1B6720AF351B00A1A0B6 /* BeastListExamUITests.swift */; };
+		4C6B1B7620AF418B00A1A0B6 /* AddEditVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6B1B7520AF418B00A1A0B6 /* AddEditVC.swift */; };
+		4C6B1B7820AF41E600A1A0B6 /* DoneVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6B1B7720AF41E600A1A0B6 /* DoneVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +39,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4C08349B20AF44BC00893E90 /* MainVCCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVCCell.swift; sourceTree = "<group>"; };
+		4C1BBB6B20AF51A400EC9583 /* DoneVCCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoneVCCell.swift; sourceTree = "<group>"; };
 		4C6B1B4120AF351600A1A0B6 /* BeastListExam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeastListExam.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C6B1B4420AF351600A1A0B6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4C6B1B4620AF351600A1A0B6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4C6B1B4620AF351600A1A0B6 /* MainToBeastVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainToBeastVC.swift; sourceTree = "<group>"; };
 		4C6B1B4920AF351600A1A0B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4C6B1B4C20AF351600A1A0B6 /* BeastListExam.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BeastListExam.xcdatamodel; sourceTree = "<group>"; };
 		4C6B1B4E20AF351A00A1A0B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +55,8 @@
 		4C6B1B6320AF351B00A1A0B6 /* BeastListExamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeastListExamUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C6B1B6720AF351B00A1A0B6 /* BeastListExamUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeastListExamUITests.swift; sourceTree = "<group>"; };
 		4C6B1B6920AF351B00A1A0B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C6B1B7520AF418B00A1A0B6 /* AddEditVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEditVC.swift; sourceTree = "<group>"; };
+		4C6B1B7720AF41E600A1A0B6 /* DoneVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoneVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,8 +108,12 @@
 			isa = PBXGroup;
 			children = (
 				4C6B1B4420AF351600A1A0B6 /* AppDelegate.swift */,
-				4C6B1B4620AF351600A1A0B6 /* ViewController.swift */,
+				4C6B1B4620AF351600A1A0B6 /* MainToBeastVC.swift */,
 				4C6B1B4820AF351600A1A0B6 /* Main.storyboard */,
+				4C1BBB6B20AF51A400EC9583 /* DoneVCCell.swift */,
+				4C08349B20AF44BC00893E90 /* MainVCCell.swift */,
+				4C6B1B7720AF41E600A1A0B6 /* DoneVC.swift */,
+				4C6B1B7520AF418B00A1A0B6 /* AddEditVC.swift */,
 				4C6B1B4E20AF351A00A1A0B6 /* Assets.xcassets */,
 				4C6B1B5020AF351A00A1A0B6 /* LaunchScreen.storyboard */,
 				4C6B1B5320AF351A00A1A0B6 /* Info.plist */,
@@ -260,7 +272,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				4C6B1B4D20AF351600A1A0B6 /* BeastListExam.xcdatamodeld in Sources */,
-				4C6B1B4720AF351600A1A0B6 /* ViewController.swift in Sources */,
+				4C1BBB6C20AF51A400EC9583 /* DoneVCCell.swift in Sources */,
+				4C6B1B7820AF41E600A1A0B6 /* DoneVC.swift in Sources */,
+				4C6B1B4720AF351600A1A0B6 /* MainToBeastVC.swift in Sources */,
+				4C08349C20AF44BC00893E90 /* MainVCCell.swift in Sources */,
+				4C6B1B7620AF418B00A1A0B6 /* AddEditVC.swift in Sources */,
 				4C6B1B4520AF351600A1A0B6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
